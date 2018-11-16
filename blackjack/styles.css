@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+
+body {
+    background-color: #f8f8f8;
+    font-family: 'Gudea', sans-serif;
+}
+
+img {
+    z-index: -1;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.container {
+    border: solid 1px black;
+    border-radius: 4px;
+    box-shadow: black 2px 2px;
+    background-color: white;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#name {
+    font-size: 40px;
+    margin-top: 150px;
+    text-decoration: underline;
+}
+
+#text, #new-game-buttom, #hit-button, #stay-button {
+    font-size: 1.2em;
+}
+
+#new-game-buttom {
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: rgba(0, 0, 0, 0.05) 3px 3px;
+}
+
+.col-md-12 {
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.footer-copyright {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
